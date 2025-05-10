@@ -47,6 +47,20 @@
                     "fileName": "M4InnerSupport.step",
                     "type": "STEP",
                     "SVGwidth": 10
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.19234360410831,
+                    "y": 0.7085308056872038,
+                    "uniqueID": 1746914356350,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ],
+                    "description": "Creates a new circle."
                 }
             ],
             "allConnectors": [],
