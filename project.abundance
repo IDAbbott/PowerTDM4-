@@ -19,9 +19,9 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.13445378151260504,
-            "y": 0.3341232227488152,
+            "name": "Header",
+            "x": 0.12978524743230627,
+            "y": 0.3127962085308057,
             "uniqueID": 1746914113101,
             "ioValues": [],
             "description": "Molecules provide an organizational structure to contain atoms. Double click on a molecule to enter it. Use the up arrow in the upper right hand corner of the screen to go up one level.",
@@ -35,6 +35,18 @@
                     "uniqueID": 1746914112853,
                     "ioValues": [],
                     "description": "Connect geometry here to make it available in the next level up. "
+                },
+                {
+                    "atomType": "Import",
+                    "name": "Import",
+                    "x": 0.15779645191409897,
+                    "y": 0.4620853080568721,
+                    "uniqueID": 1746914292157,
+                    "ioValues": [],
+                    "description": "Import Atom, let's you choose a type of file to import and use in your design.",
+                    "fileName": "M4InnerSupport.step",
+                    "type": "STEP",
+                    "SVGwidth": 10
                 }
             ],
             "allConnectors": [],
