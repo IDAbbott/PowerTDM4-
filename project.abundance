@@ -85,8 +85,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5452847805788982,
-                    "y": 0.07109004739336493,
+                    "x": 0.5592903828197946,
+                    "y": 0.06398104265402843,
                     "uniqueID": 1746914683191,
                     "ioValues": [
                         {
@@ -137,8 +137,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.5471521942110178,
-                    "y": 0.1872037914691943,
+                    "x": 0.57703081232493,
+                    "y": 0.20616113744075829,
                     "uniqueID": 1746914683289,
                     "ioValues": [
                         {
@@ -163,8 +163,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1699346405228758,
-                    "y": 0.523696682464455,
+                    "x": 0.0700280112044818,
+                    "y": 0.509478672985782,
                     "uniqueID": 1746915027674,
                     "ioValues": [
                         {
@@ -177,8 +177,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16246498599439776,
-                    "y": 0.7251184834123223,
+                    "x": 0.08123249299719888,
+                    "y": 0.7559241706161137,
                     "uniqueID": 1746915031888,
                     "ioValues": [
                         {
@@ -191,8 +191,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.28758169934640526,
-                    "y": 0.5118483412322274,
+                    "x": 0.16246498599439776,
+                    "y": 0.5308056872037915,
                     "uniqueID": 1746915087439,
                     "ioValues": [
                         {
@@ -209,8 +209,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.2773109243697479,
-                    "y": 0.7677725118483413,
+                    "x": 0.17086834733893558,
+                    "y": 0.7654028436018957,
                     "uniqueID": 1746915093379,
                     "ioValues": [
                         {
@@ -227,8 +227,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6274509803921569,
-                    "y": 0.7037914691943128,
+                    "x": 0.5210084033613445,
+                    "y": 0.7156398104265402,
                     "uniqueID": 1746915221274,
                     "ioValues": [
                         {
@@ -251,29 +251,10 @@
                     "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 },
                 {
-                    "atomType": "Fusion",
-                    "name": "Fusion",
-                    "x": 0.38188608776844074,
-                    "y": 0.6279620853080569,
-                    "uniqueID": 1746915289665,
-                    "ioValues": [
-                        {
-                            "name": "Shape 1",
-                            "ioValue": 1746915087439
-                        },
-                        {
-                            "name": "Shape 2",
-                            "ioValue": 1746915093379
-                        }
-                    ],
-                    "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape",
-                    "unionType": "Fusion"
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.5004668534080299,
-                    "y": 0.5924170616113744,
+                    "x": 0.415499533146592,
+                    "y": 0.7345971563981043,
                     "uniqueID": 1746915309459,
                     "ioValues": [
                         {
@@ -282,13 +263,13 @@
                         }
                     ],
                     "description": "Changes the color of the shape.",
-                    "selectedColorIndex": 22
+                    "selectedColorIndex": 21
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.673202614379085,
-                    "y": 0.8507109004739336,
+                    "x": 0.5350140056022409,
+                    "y": 0.8649289099526067,
                     "uniqueID": 1746915368834,
                     "ioValues": [
                         {
@@ -313,13 +294,13 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.4407096171802054,
-                    "y": 0.7511848341232228,
+                    "x": 0.31559290382819793,
+                    "y": 0.7393364928909952,
                     "uniqueID": 1746915417008,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1746915289665
+                            "ioValue": 1746916286411
                         },
                         {
                             "name": "xDist",
@@ -387,16 +368,46 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6769374416433239,
-                    "y": 0.2606635071090047,
-                    "uniqueID": 1746916162753,
+                    "x": 0.2791783380018674,
+                    "y": 0.514218009478673,
+                    "uniqueID": 1746916286411,
                     "ioValues": [
                         {
                             "name": "Shape 1",
-                            "ioValue": 1746915985495
+                            "ioValue": 1746915087439
+                        },
+                        {
+                            "name": "Shape 2",
+                            "ioValue": 1746915093379
                         }
                     ],
                     "description": "Pick between assembly and fusion to join input geometries. Assembly takes multiple shapes together into one, shapes higher in the inputs list will cut into shapes lower on the input list where they overlap. Fusion takes all shapes or sketches and fuses them permanently into a single shape"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.5238095238095238,
+                    "y": 0.5213270142180094,
+                    "uniqueID": 1746916373191,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1746915309459
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ],
+                    "description": "Rotates the input geometry around the X, Y, or Z axis. Inputs are degrees."
                 }
             ],
             "allConnectors": [
@@ -454,21 +465,14 @@
                     "ap2Name": "Shape 1",
                     "ap2Primary": false,
                     "ap1ID": 1746915087439,
-                    "ap2ID": 1746915289665
+                    "ap2ID": 1746916286411
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "Shape 2",
                     "ap2Primary": false,
                     "ap1ID": 1746915093379,
-                    "ap2ID": 1746915289665
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 1746915289665,
-                    "ap2ID": 1746915417008
+                    "ap2ID": 1746916286411
                 },
                 {
                     "ap1Name": "geometry",
@@ -488,15 +492,22 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 1746915309459,
+                    "ap2ID": 1746916373191
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 1746915417008,
                     "ap2ID": 1746915309459
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1746915985495,
-                    "ap2ID": 1746916162753
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1746916286411,
+                    "ap2ID": 1746915417008
                 }
             ],
             "fileTypeVersion": 1,
